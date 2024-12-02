@@ -12,7 +12,7 @@ ATTACHMENT_PATH = "your_attachment.pdf"
 def load_emails(filename):
     """load email addresses from a text file"""
     with open(filename, 'r') as file:
-     return [line.strip() for line in file if line.strip
+     return [line.strip() for line in file if line.strip]
 
 def send_email(to_address):
     """send an email with an attachment to a single address"""
