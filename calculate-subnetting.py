@@ -38,7 +38,7 @@ def supernetting(networks: list, new_prefix: int):
 if __name__ == "__main__":
     print("=== Subnetting ===")
     # Exemple de réseau de départ et division en sous-réseaux de préfixe /26
-    subnetting("10.93.1.0/13", 18)
+    subnetting("10.93.1.0/13", 21)
     
 
 
